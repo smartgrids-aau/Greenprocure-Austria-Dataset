@@ -6,8 +6,9 @@ Using ABC and XYZ Analyses in Southern Austria" (submitted).
 ## Repository Structure
 
 ```
-├── dataset/                    # Municipal procurement data
-├── GreenProcureAnalyzer/      # Analysis tool and source code
+├── dataset/                  # Municipal procurement data
+├── GreenProcureAnalyzer/     # Analysis tool and source code
+├── Output/                   # Generated reports and graphs
 └── README.md
 ```
 
