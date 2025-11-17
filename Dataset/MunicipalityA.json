@@ -1,0 +1,1197 @@
+{
+    "table": "MunicipalityA.xlsx",
+    "dateformat": "%M/%D/%Y",
+    "visualizepalette": "Reds_d",
+    "outputcolumns": [
+        "Soll Netto"
+    ],
+    "columns": {
+        "Date": "Buchungsdatum",
+        "Year": "Jahr",
+        "Cost": "Soll Netto",
+        "Products": "Text",
+        "SplitColumn": "Postbezeichnung"
+    },
+    "splits": {
+        "Treibstoffe": [
+            "Treibstoffe"
+        ],
+        "Gebrauchsgüter": [
+            "Geringwertige Wirtschaftsgüter"
+        ],
+        "Verbrauchsgüter": [
+            "Chemische u.sonst.artverwandte Mittel",
+            "Reinigungsmittel"
+        ]
+    },
+    "WarenTypen": {
+        "Treibstoffe": [
+            "Benzin und Diesel"
+        ],
+        "Gebrauchsgüter": [
+            "Wasserzähler",
+            "Stromzähler",
+            "Bücher",
+            "Gabelhubwagen",
+            "Einsatzbluse",
+            "Natriumdampflampe",
+            "Abdeckband",
+            "Namensstreifen",
+            "Akkus",
+            "Eimer",
+            "Gußeisen, Schachtabdeckung",
+            "Einbaugarnitur",
+            "Klarsichthüllen",
+            "Ordner, Hüllen und Hefter",
+            "PE Rohr",
+            "Stahldrahtseil",
+            "Stahlstifte",
+            "Starkstromkabel",
+            "Steckdosen",
+            "Computermäuse",
+            "Mausefalle",
+            "Medaillen",
+            "Messer",
+            "Laminiergerät",
+            "Bohrer",
+            "Schilder",
+            "Schlauchwagen",
+            "Feuerwehrhelm",
+            "Schläuche",
+            "Schraubdreher",
+            "Schraubhaken",
+            "Rohrkupplung",
+            "Rücksäcke",
+            "Pinsel",
+            "PVC-Artikel",
+            "Rapidglied",
+            "Rasenmäher",
+            "Rechen",
+            "Besen",
+            "Regale",
+            "Bewegungsmelder",
+            "Bilderrahmen",
+            "Diamantscheibe",
+            "Jacken",
+            "Schutzplanen",
+            "Schwimmerschalter",
+            "Aluschaufel",
+            "Kabelbinder",
+            "Karabiner",
+            "Kindergartenbox",
+            "Schlüssel",
+            "Schneeschieber",
+            "Rasteranbauleuchte",
+            "Schneestangen",
+            "Schaltafeln",
+            "Schalterleisten",
+            "Schaufeln",
+            "Trockensauger",
+            "Überflurhydrant",
+            "Luftfilter",
+            "Magnetheber",
+            "Mähfaden",
+            "Hausanschlussschieber",
+            "Schotter",
+            "Stiefel",
+            "Rundbürste",
+            "Sicherungen",
+            "Spannschlösser",
+            "Absperrungen",
+            "Sägekette, Sägeblätter",
+            "Filme",
+            "Flansch",
+            "Flipchart",
+            "Sperrschelle",
+            "Spielrasen",
+            "Synoflex-Verbinder",
+            "Zylinder",
+            "Zurrgurte",
+            "Abfallsammelkorb",
+            "Vorhangschlösser",
+            "Wannenleuchte",
+            "Wasserpumpenzange",
+            "Wasserwaagen",
+            "Sicherheitsschuhe",
+            "Schulunterrichtsgesetz",
+            "Computermonitor",
+            "Falthandtücher",
+            "Fahnen",
+            "Fahrradständer",
+            "Gießkanne",
+            "Axt",
+            "Arbeitshandschuhe",
+            "USB-Sticks",
+            "Arbeitshose",
+            "Dämmerungsschalter",
+            "Toilettenbürsten",
+            "Bürostuhl",
+            "Wickelrucksäcke",
+            "Schneeketten",
+            "Dämmplatten",
+            "Lärchenpfähle",
+            "Stempel",
+            "Stempelkissen",
+            "LED Beleuchtung",
+            "Reparaturkupplung",
+            "Reparaturschellen",
+            "Richtllinien",
+            "Rillenkugellager",
+            "Vergaser",
+            "Verkehrsspiegel",
+            "Lampen",
+            "Reifen"
+        ],
+        "Verbrauchsgüter": [
+            "Kreide",
+            "Gutscheine",
+            "Drahtstifte",
+            "Etiketten",
+            "Reparaturdichtsatz",
+            "Erste-Hilfe Kästen",
+            "Gewebeband",
+            "Verbandsmaterial",
+            "Reinigungsmittel",
+            "AdBlue",
+            "Dübel",
+            "Handwaschpaste",
+            "Toner",
+            "Druckerpatronen",
+            "Batterien",
+            "Kreppband",
+            "Epoxy",
+            "Kränze",
+            "Lebensmittel",
+            "Warnband",
+            "Fineliner",
+            "Rattenbekämpfung",
+            "Silikon",
+            "Waschmittel",
+            "Waschpulver",
+            "Sprühseife",
+            "Sachaufwand",
+            "Entkalker",
+            "Außenreiniger",
+            "Makadam",
+            "Luftballons",
+            "Glasreiniger",
+            "Scherbolzen",
+            "Beton",
+            "Reaktivperlen",
+            "Mikrofasertücher",
+            "Miete Spender",
+            "Austausch",
+            "Weihnachtskarten",
+            "Kerzen",
+            "Visitenkarten",
+            "Vliesfiltertüten",
+            "Aluminiumchlorid",
+            "Anzünder",
+            "Montagekleber",
+            "Sicherheitskleber",
+            "Ameisenbekämpfung",
+            "Klebstoff",
+            "Zeugnis-Untergrundpapier",
+            "Geschenke",
+            "Geschirrspüler",
+            "Genol",
+            "Einweghandschuhe",
+            "Bastelmaterial",
+            "Div. f. Gratulationen",
+            "Bleichmittel",
+            "Auftausalz",
+            "Portogeb",
+            "HeizOel",
+            "MotorOel",
+            "Styroporsäcke",
+            "Strohballen",
+            "Öl",
+            "Toilettenpapier",
+            "Müllsäcke",
+            "Novasol",
+            "Injektionsmörtel",
+            "Isolierband",
+            "Edding",
+            "Spray",
+            "Papierfilter",
+            "Allzweckreiniger",
+            "Klebeband",
+            "Klebefilz",
+            "Klebespachtel",
+            "Kuverts",
+            "Laminierhüllen",
+            "Holzschutz",
+            "Holzleim",
+            "Flockungsmittel",
+            "Abflussreiniger",
+            "Abo",
+            "Abreißblock",
+            "Absperrband",
+            "Bio-Abfallbeutel",
+            "Schrauben",
+            "Rückleitg",
+            "Pellets",
+            "Splitt",
+            "Dünger",
+            "Plakate",
+            "Polyfix Schnell-Zement-Mörtel",
+            "Putzpapier",
+            "Pflanzen und Blumenerde",
+            "Div.f.Alltagsbetrieb",
+            "Papier und Pappe",
+            "Briefpapier",
+            "Broschüren, Flyer",
+            "Korofin",
+            "Desinfektionsmittel",
+            "Fotokarton",
+            "Frostkoffer",
+            "Frostschaden",
+            "Frostschutzmittel",
+            "Plastikfolien",
+            "Küvettentests"
+        ]
+    },
+    "replace": {
+        "Text": {
+            "Stromzähler": [
+                "Stromzähler",
+                "Neuzähler"
+            ],
+            "Wasserzähler": [
+                "Wasserzähler",
+                "wasserzähler",
+                "Austauschzähler",
+                "Druckminderer",
+                "Durchlaufventil",
+                "Tauschzähler"
+            ],
+            "Gutscheine": [
+                "Gutscheine"
+            ],
+            "Montagekleber": [
+                "Montagekleber"
+            ],
+            "Sicherheitskleber": [
+                "Sicherheitskleber"
+            ],
+            "Feuerwehrhelm": [
+                "Feuerwehrhelm"
+            ],
+            "Klebstoff": [
+                "Superkleber",
+                "Klebestifte",
+                "Klebesticks",
+                "Uhu",
+                "Allroundleim"
+            ],
+            "Stempel": [
+                "Stempel ",
+                "Datumsstempel"
+            ],
+            "Stempelkissen": [
+                "Stempelk"
+            ],
+            "Bücher": [
+                "Bücher",
+                "Buch",
+                "buch",
+                "bücher",
+                "einfach musikalisch",
+                "Grundlagen der Mathematik",
+                "Bausteine "
+            ],
+            "Gabelhubwagen": [
+                "Gabelhubwagen"
+            ],
+            "Desinfektionsmittel": [
+                "Desinfektionsmittel",
+                "Desinfektionsm",
+                "Händedesinfektion",
+                "Desinfekt",
+                "Toilettenöl",
+                "desinfektionsm"
+            ],
+            "Geschenke": [
+                "Geschenk"
+            ],
+            "Geschirrspülmittel": [
+                "Spülmittel",
+                "Klarspüler",
+                "Klarpüler",
+                "Gläserrein",
+                "Glanztrockner",
+                "Clin Citrus"
+            ],
+	    "Geschirrspüler": [
+                "Geschirrspüler"
+            ],
+            "Genol": [
+                "Genol"
+            ],
+            "Einsatzbluse": [
+                "Einsatzbluse"
+            ],
+            "Einweghandschuhe": [
+                "Einweghandschuhe",
+                "Nitril-Handschuhe"
+            ],
+            "Bastelmaterial": [
+                "Bastelmaterial"
+            ],
+            "Div. f. Gratulationen": [
+                "Gratulationen",
+                "goldene Hochzeit"
+            ],
+            "Bleichmittel": [
+                "Bleich- u. Oxidationsmittel",
+                "Bleich- und Oxidationsmittel"
+            ],
+            "Auftausalz": [
+                "Auftausalz",
+                "Auftausiedesalz",
+                "Streusalz",
+		"Eisfresser",
+                "Schnee-EX"
+            ],
+            "Portogeb.": [
+                "Portogeb"
+            ],
+            "HeizOel": [
+                "Heizöl"
+            ],
+            "MotorOel": [
+                "Motoröl",
+                "Öl",
+                "Getriebeöl",
+                "Hydrauliköl",
+                "Zweitaktöl",
+                "Kettenöl",
+                "Kettenhaftöl"
+            ],
+            "Styroporsäcke": [
+                "Säcke für Styropor",
+                "Styroporsäcke"
+            ],
+            "Strohballen": [
+                "Strohballen"
+            ],
+            "Toilettenpapier": [
+                "Klopapier",
+                "Toilettenpapier",
+                "WC-Papier",
+                "WC Papier"
+            ],
+            "Müllsäcke": [
+                "Abfallsäcke",
+                "Müllsäcke",
+                "Hygienesäcke",
+                "Müllb",
+                "Longopac",
+                "Lpngopac",
+                "Hundekotbeutel"
+            ],
+            "Novasol": [
+                "Novasol"
+            ],
+            "Natriumdampflampe": [
+                "Natriumdampflampe"
+            ],
+            "Abdeckband": [
+                "Abdeckband"
+            ],
+            "Akkus": [
+                "Akku",
+                "akku",
+                "akkus",
+                "akku ",
+                "akku-pack",
+                "akku-samsung",
+                "akkubatterien",
+                "Duracel"
+            ],
+            "Injektionsmörtel": [
+                "Injektionsmörtel"
+            ],
+            "Isolierband": [
+                "Isolierband"
+            ],
+            "Edding": [
+                "Edding"
+            ],
+            "Eimer": [
+                "Eimer"
+            ],
+            "Einbaugarnitur": [
+                "Einbaugarn",
+                "einbaugarn"
+            ],
+            "Klarsichthüllen": [
+                "Klarsicht"
+            ],
+            "Ordner, Hüllen und Hefter": [
+                "Aktenhüllen",
+                "Ordner",
+                "Binderücken",
+                "Hefter",
+                "Mappen",
+                "mappen"
+            ],
+            "PE Rohr": [
+                "PE 80 Rohr",
+                "PE Rohr"
+            ],
+            "Spray": [
+                "Spray"
+            ],
+            "Stahldrahtseil": [
+                "Stahldrahtseil"
+            ],
+            "Stahlseil": [
+                "Stahlseil"
+            ],
+            "Stahlstifte": [
+                "Stahlstifte"
+            ],
+            "Starkstromkabel": [
+                "Starkstromkabel"
+            ],
+            "Steckdosen": [
+                "Steckdose"
+            ],
+            "Stecker": [
+                "Stecker"
+            ],
+            "Papierfilter": [
+                "Papierfilter"
+            ],
+            "Computermäuse": [
+                "Mäuse",
+                "Maus f.",
+                "Computermaus",
+                "PC-Mäuse"
+            ],
+            "Mausefalle": [
+                "Mausefalle"
+            ],
+            "Medaillen": [
+                "Medaillen"
+            ],
+            "Messer": [
+                "Messer"
+            ],
+            "Allzweckreiniger": [
+                "Allzweckreiniger",
+                "Bodenreiniger"
+            ],
+            "Klebeband": [
+                "Klebeband",
+                "Tesa"
+            ],
+            "Klebefilz": [
+                "Klebefilz"
+            ],
+            "Klebespachtel": [
+                "Klebespachtel"
+            ],
+            "Kuverts": [
+                "Kuverts"
+            ],
+            "Laminierhüllen": [
+                "Laminierhüllen",
+                "Laminierfolie"
+            ],
+            "Laminiergerät": [
+                "Laminiergerät"
+            ],
+            "Bohrer": [
+                "Bohrer",
+                "Bohrschrauber",
+                "Spiralbohrer"
+            ],
+            "Holzschutz": [
+                "Holzschutz"
+            ],
+            "Holzleim": [
+                "Holzleim"
+            ],
+            "Flockungsmittel": [
+                "Flockungsmittel",
+                "Flockungsmitel",
+                "FlocStar",
+		"Hydroxidchlorid",
+                "Polyaluminiumhydroxidchlorid",
+                "Poly-Aluminium",
+		"Aluminiumchlorid",
+		"Eisen-II-chlorid",
+                "Eisen II Chlorid"
+            ],
+            "Abflussreiniger": [
+                "Abflussreiniger"
+            ],
+            "Abo": [
+                "Abo "
+            ],
+            "Abreißblock": [
+                "Abreißblock"
+            ],
+            "Absperrband": [
+                "Absperrband"
+            ],
+            "Schilder": [
+                "Schild",
+                "schild",
+                "Fahrverbot",
+                "Hausnummer",
+                "Hausnr.",
+                "Ortstaf",
+                "Schild",
+                "Alutafel",
+                "Wanderwegschild",
+                "Tafeln",
+                "Verkehrszeichen",
+                "Zusatztafel",
+                "Fahrverbot",
+                "Parktaf",
+                "Markierungstaf",
+                "Parkverbot",
+                "Verkehrstafeln",
+                "Sondertafel",
+                "Gefahrentafel",
+                "Ortsbezeichnungstafel",
+                "Hinweistafel"
+            ],
+            "Schlauchwagen": [
+                "Schlauchwagen"
+            ],
+            "Schläuche": [
+                "Schlauch.",
+                "Schlauch,",
+                "Schlauch ",
+                "Schlauch- ",
+                "Schläuche"
+            ],
+            "Bio-Abfallbeutel": [
+                "Bio-Abfallbeutel",
+                "Bioabfallbeutele",
+                "Bioabfallbeutel",
+                "Biobeutel",
+                "Gassibeutel"
+            ],
+            "Schraubdreher": [
+                "Schraubendreher"
+            ],
+            "Gußeisen, Schachtabdeckung": [
+                "Schachtabdeckung",
+                "Straßenkappe"
+            ],
+            "Schraubhaken": [
+                "Schraubhaken"
+            ],
+            "Schrauben": [
+                "Blechschrauben",
+                "Blindnieten",
+                "Schraube",
+                "Verschraubun"
+            ],
+            "Rohrkupplung": [
+                "Rohrkupplung"
+            ],
+            "Rückleitg": [
+                "Rückleitg"
+            ],
+            "Rücksäcke": [
+                "Rücksäcke"
+            ],
+            "Pellets": [
+                "pellet"
+            ],
+            "Splitt": [
+                "splitt"
+            ],
+            "Dünger": [
+                "Dünge"
+            ],
+            "Pinsel": [
+                "Pinsel"
+            ],
+            "Plakate": [
+                "Plakate"
+            ],
+            "Polyfix Schnell-Zement-Mörtel": [
+                "Polyfix Schnell"
+            ],
+            "Putzpapier": [
+                "Putzpapier",
+                "Putztuch"
+            ],
+            "PVC-Artikel": [
+                "PVC",
+                "Druckrohr"
+            ],
+            "Pflanzen und Blumenerde": [
+                "Blumen",
+                "Bepflanzung",
+                "Pflanzenerde",
+                "Rasenerde",
+                "Rasensamen",
+                "Rasenssamen"
+            ],
+            "Div.f.Alltagsbetrieb": [
+                "Alltagsbetrieb"
+            ],
+            "Rapidglied": [
+                "Rapidglied"
+            ],
+            "Rasenmäher": [
+                "Rasenmäher"
+            ],
+            "Rechen": [
+                "Harken",
+                "Rechenbesen"
+            ],
+            "Besen": [
+                "Besen"
+            ],
+            "Regale": [
+                "Regal"
+            ],
+            "Bewegungsmelder": [
+                "Bewegungsmelder",
+                "bewegungsmelder"
+            ],
+            "Bilderrahmen": [
+                "Bilderrahmen"
+            ],
+            "Druckerpatronen": [
+                "Druckerpatrone",
+                "Tintenpatrone"
+            ],
+            "Papier und Pappe": [
+                "Kopierpapier",
+                "Zeugnis-Untergrundpapier",
+                "Trennpapier",
+                "Trennblätter",
+                "Seiten, A4",
+                "Karton",
+                "karton"
+            ],
+            "Briefpapier": [
+                "Briefpapier"
+            ],
+            "Broschüren, Flyer": [
+                "broschüre",
+                "Broschüre",
+                "Flyer",
+                "flyer",
+                "Verordnungsblätter",
+                "Flugblätter",
+                "Visitenkarten",
+                "Veranstaltungskalender"
+            ],
+            "Korofin": [
+                "Korofin"
+            ],
+            "Fotokarton": [
+                "Fotokarton"
+            ],
+            "Frostkoffer": [
+                "Frostkoffer"
+            ],
+            "Frostschaden": [
+                "Frostschaden"
+            ],
+            "Frostschutzmittel": [
+                "Frostschutzmittel"
+            ],
+            "Plastikfolien": [
+                "Folie"
+            ],
+            "Diamantscheibe": [
+                "Diamantscheibe",
+                "Diamanttrennscheibe"
+            ],
+            "Küvettentests": [
+                "Küvetten",
+                "Kvetten"
+            ],
+            "Jacken": [
+                "Schutzjacken",
+                "Jacke",
+                "Schutzbekleidung",
+                "Dienstbekleidung"
+            ],
+            "Aluminiumchlorid": [
+                "Aluminiumchlorid"
+            ],
+            "Schutzplanen": [
+                "Schutzplane"
+            ],
+            "Schwimmerschalter": [
+                "Schwimmerschalter"
+            ],
+            "Aluschaufel": [
+                "Aluschaufel"
+            ],
+            "Kabelbinder": [
+                "Kabelbinder"
+            ],
+            "Karabiner": [
+                "Karabiner"
+            ],
+            "Kindergartenbox": [
+                "Kindergartenbox"
+            ],
+            "Vignetten": [
+                "Vignette"
+            ],
+            "Kerzen": [
+                "Kerzen",
+                "Teelichter"
+            ],
+            "Visitenkarten": [
+                "Visitenkarten"
+            ],
+            "Vliesfiltertüten": [
+                "Vliesfiltertüte",
+                "Vliessäcke"
+            ],
+            "Ameisenbekämpfung": [
+                "Ameisenbekämpfung",
+                "Ameisenfrei"
+            ],
+            "Schlüssel": [
+                "Schlüssel "
+            ],
+            "Anzünder": [
+                "Anzünder"
+            ],
+            "Schneeschieber": [
+                "Schneeschieber"
+            ],
+            "Schneeketten": [
+                "Schneeketten"
+            ],
+            "Austausch": [
+                "Austausch"
+            ],
+            "Miete Spender": [
+                "Miete Spender",
+                "Miet Spender",
+                "Mietw.Spender"
+            ],
+            "Weihnachtskarten": [
+                "Weihnachtskarten",
+                "Weihn.Karten"
+            ],
+            "Mikrofasertücher": [
+                "Mikrofasert",
+                "Mikrofasermopp"
+            ],
+            "Rasteranbauleuchte": [
+                "Rasteranbauleuchte"
+            ],
+            "Reaktivperlen": [
+                "Reaktivperlen",
+                "Straßenmarkierfarbe",
+                "reaktiv"
+            ],
+            "Schneestangen": [
+                "Schneestangen"
+            ],
+            "Beton": [
+                "Beton"
+            ],
+            "Schaltafeln": [
+                "Schaltafel"
+            ],
+            "Schalterleisten": [
+                "Schalterleiste"
+            ],
+            "Schaufeln": [
+                "Schaufeln"
+            ],
+            "Trockensauger": [
+                "Trockensauger"
+            ],
+            "Überflurhydrant": [
+                "Überflurhydrant",
+                "Übrflurhydrant"
+            ],
+            "Glasreiniger": [
+                "Glasreiniger",
+                "Scheibenklar"
+            ],
+            "Scherbolzen": [
+                "Scherbolzen"
+            ],
+            "Luftballons": [
+                "Luftballo"
+            ],
+            "Luftfilter": [
+                "Luftfilter"
+            ],
+            "Kreide": [
+                "Kreide",
+                "Tafelkreiden",
+                "kreiden"
+            ],
+            "Magnetheber": [
+                "Magnetheber"
+            ],
+            "Mähfaden": [
+                "Mähfaden"
+            ],
+            "Makadam": [
+                "Makadam"
+            ],
+            "Hausanschlussschieber": [
+                "Hausanschl.-Schieber",
+                "Hausanschl.Schieber",
+                "Hausanschluss-Schieber",
+                "Hausanschlussschieber",
+                "Hausanschl. Schieber"
+            ],
+            "Epoxy": [
+                "Epoxy"
+            ],
+            "Entkalker": [
+                "Entkalker"
+            ],
+            "Schotter": [
+                "Schotter"
+            ],
+            "Schuhe": [
+                "Stiefel",
+                "stiefel",
+                "Schuhe",
+                "SCHUHE",
+                "schuhe"
+            ],
+            "Außenreiniger": [
+                "Außenreiniger"
+            ],
+            "Rundbürste": [
+                "Rundbürste"
+            ],
+            "Sachaufwand": [
+                "Sachaufwand"
+            ],
+            "Sicherungen": [
+                "Sicherung"
+            ],
+            "Silikon": [
+                "Silikon"
+            ],
+            "Spannschlösser": [
+                "Spannschl"
+            ],
+            "Absperrungen": [
+                "Sperrpfosten",
+                "Absperrgitter",
+                "Absperrkette",
+                "Baustellengitter"
+            ],
+            "Sägekette, Sägeblätter": [
+                "Sägekette",
+                "Sägeblätter"
+            ],
+            "Filme": [
+                "Film ",
+                "Filme "
+            ],
+            "Fineliner": [
+                "Fineliner"
+            ],
+            "Flansch": [
+                "Flansch"
+            ],
+            "Flipchart": [
+                "Flipchart"
+            ],
+            "Sperrschelle": [
+                "Sperrschelle"
+            ],
+            "Sprühseife": [
+                "Sprühseife",
+                "Schaumseife",
+                "Flüssigseite",
+                "Fl Seife",
+                "Seifenspender"
+            ],
+            "Wickelrucksäcke": [
+                "Wickelrucksäcke"
+            ],
+            "Spielrasen": [
+                "Spielrasen"
+            ],
+            "Synoflex-Verbinder": [
+                "Synoflex-Verbinder"
+            ],
+            "Zylinder": [
+                "Zylinder"
+            ],
+            "Zurrgurte": [
+                "Zurrgurt"
+            ],
+            "Rattenbekämpfung": [
+                "Rattenbekämpfung"
+            ],
+            "Abfallsammelkorb": [
+                "Abfalleimer",
+                "Mülleimer",
+                "Abfallbehälter",
+                "Abfallsammelk"
+            ],
+            "Batterien": [
+                "Batterie",
+                "BATTERIE"
+            ],
+            "AdBlue": [
+                "AdBlue",
+                "Add blu"
+            ],
+            "Kränze": [
+                "Adventkranz",
+                "Kränze"
+            ],
+            "Lebensmittel": [
+                "Äpfel",
+                "Kuchen",
+                "Brot",
+                "Butter",
+                "Lebensmittel",
+                "Essen",
+                "Getränke",
+                "Krapfen",
+                "Mineralwasser",
+                "Pfeffer",
+                "Zucker",
+                "Schulobst",
+                "Gemüse",
+                "Semmel",
+                "Vollmilch"
+            ],
+            "Vorhangschlösser": [
+                "Vorhangschl"
+            ],
+            "Wannenleuchte": [
+                "Wannenleuchte"
+            ],
+            "Warnband": [
+                "Warnband"
+            ],
+            "Waschmittel": [
+                "Waschlotion",
+                "Waschm"
+            ],
+            "Waschpulver": [
+                "Waschpulver"
+            ],
+            "Wasserpumpenzange": [
+                "Wasserpumpenzange"
+            ],
+            "Wasserwaagen": [
+                "Wasserwaage"
+            ],
+            "Sicherheitsschuhe": [
+                "Sicherheitsschuhe"
+            ],
+            "Schulunterrichtsgesetz": [
+                "Schulunterrichtsgesetz",
+                "Schulunterr.Gesetz"
+            ],
+            "Computermonitor": [
+                "Monitor 24"
+            ],
+            "Kreppband": [
+                "Kreppband"
+            ],
+            "Falthandtücher": [
+                "Falthandt",
+                "Papierhandt",
+                "Rollen Handt"
+            ],
+            "Fahnen": [
+                "Fahnen"
+            ],
+            "Fahrradständer": [
+                "Fahrradständer"
+            ],
+            "Handwaschpaste": [
+                "Handwaschpaste"
+            ],
+            "Gewebeband": [
+                "Gewebeband",
+                "Gewebebänd"
+            ],
+            "Gießkanne": [
+                "Gießkanne"
+            ],
+            "Reifen": [
+                "Reifen"
+            ],
+            "Etiketten": [
+                "Etiketten",
+                "Etikettierung",
+                "Vignette",
+                "Aufkleber",
+                "aufkleber",
+                "Heftstreifen",
+                "Namensstreifen",
+                "Helmstreifen"
+            ],
+            "Arbeitshandschuhe": [
+                "Arbeitshandschuhe",
+                "Arb.Handschuhe,",
+                "Arbeithndschuhe",
+                "Handschuhes"
+            ],
+            "USB-Sticks": [
+                "USB-Stick",
+                "USB Stick"
+            ],
+            "Arbeitshose": [
+                "Arbeitshose",
+                "Einsatzhose",
+                "Schutzhose",
+                "ARBEITSHOSE",
+                "Arbeitsjea",
+                "Diensthos",
+                "CARGOHOSEN",
+                "Bundhose",
+                "Uniformhose",
+                "Hose"
+            ],
+            "Dämmerungsschalter": [
+                "Dämmerungsschalter",
+                "Dämmerungs-"
+            ],
+            "Toner": [
+                "Toner"
+            ],
+            "Druckschläuche": [
+                "Druckschl",
+                "FW-Schlauch"
+            ],
+            "Toilettenbürsten": [
+                "Toilettenbürsten"
+            ],
+            "Bürostuhl": [
+                "Bürostuhl",
+                "Bürostühle",
+                "Drehstuhl",
+                "Drehstühle"
+            ],
+            "Dämmplatten": [
+                "Dämmplatten",
+                "Dämmpl"
+            ],
+            "Lärchenpfähle": [
+                "Lärchenstempel"
+            ],
+            "Reinigungsmittel": [
+                "Reinigungsmittel",
+                "Reinig.Mittel",
+                "Reiniger",
+                "Reinigungspulver"
+            ],
+            "LED Beleuchtung": [
+                "LED ",
+                "Led-Lampen",
+                "LED-",
+                "Lichterkette",
+                "Teelichter-E"
+            ],
+            "Axt": [
+                "Axt",
+                "axt"
+            ],
+            "CD-Roms": [
+                " CD",
+                "CD´s",
+                "CD-",
+                "CD ",
+                "-CD"
+            ],
+            "Reparaturdichtsatz": [
+                "Reparaturdicht"
+            ],
+            "Reparaturkupplung": [
+                "Reparaturkupplung"
+            ],
+            "Reparaturschellen": [
+                "Reparaturschelle"
+            ],
+            "Richtllinien": [
+                "Richtllinien"
+            ],
+            "Rillenkugellager": [
+                "Rillenkugellager"
+            ],
+            "Verbandsmaterial": [
+                "Verbandsmaterial"
+            ],
+            "Erste-Hilfe Kästen": [
+                "Erse-Hilfe",
+                "Erste-Hilfe"
+            ],
+            "Vergaser": [
+                "Vergaser"
+            ],
+            "Drahtstifte": [
+                "Drahtstifte"
+            ],
+            "Verkehrsspiegel": [
+                "Verkehrsspiegel"
+            ],
+            "Dübel": [
+                "Dübel"
+            ],
+            "Lampen": [
+                "Lampe",
+                "Leucht",
+                "lampe"
+            ],
+            "Benzin und Diesel": [
+                "Diesel",
+                "Diesel, Super",
+                "Super, Diesel",
+                "Super",
+                "Suuper",
+                "Treibstoff",
+                "Taktgemisch",
+                "Fuel XP",
+                "Gemisch",
+                "Motorsägensprit",
+                "Benzin",
+                "DIESEL",
+                "BENZIN"
+            ]
+        },
+        "Postbezeichnung": {
+            "Treibstoff": [
+                "Treibstoffe",
+                "Brennstoffe"
+            ],
+            "Wirtschaftsgüter": [
+                "Wirtschaftsgüter"
+            ],
+            "Verbrauchsgüter": [
+                "Büromittel",
+                "Handarbeitsmaterial",
+                "Lebensmittel",
+                "Handarbeitsmittel",
+                "verbrauch",
+                "Chemische",
+                "Verbrauchsgüter",
+                "Reinigungsmittel",
+                "Schleifmittel",
+                "Schmiermittel"
+            ],
+            "Gebrauchsgüter": [
+                "Druckwerke",
+                "Lernmittel"
+            ]
+        }
+    }
+}
