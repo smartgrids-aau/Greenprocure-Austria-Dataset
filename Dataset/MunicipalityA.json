@@ -28,7 +28,8 @@
         "Treibstoffe": [
             "Benzin und Diesel",
             "HeizOel",
-            "Pellets"
+            "Pellets",
+            "AdBlue"
         ],
         "Gebrauchsgüter": [
             "Wasserzähler",
@@ -117,7 +118,6 @@
             "Sicherheitsschuhe",
             "Schulunterrichtsgesetz",
             "Computermonitor",
-            "Falthandtücher",
             "Fahnen",
             "Fahrradständer",
             "Gießkanne",
@@ -154,7 +154,6 @@
             "Gewebeband",
             "Verbandsmaterial",
             "Reinigungsmittel",
-            "AdBlue",
             "Dübel",
             "Handwaschpaste",
             "Toner",
@@ -248,7 +247,8 @@
             "Frostschaden",
             "Frostschutzmittel",
             "Plastikfolien",
-            "Küvettentests"
+            "Küvettentests",
+            "Falthandtücher"
         ]
     },
     "replace": {
@@ -321,7 +321,7 @@
                 "Glanztrockner",
                 "Clin Citrus"
             ],
-	    "Geschirrspüler": [
+            "Geschirrspüler": [
                 "Geschirrspüler"
             ],
             "Genol": [
@@ -332,7 +332,13 @@
             ],
             "Einweghandschuhe": [
                 "Einweghandschuhe",
-                "Nitril-Handschuhe"
+                "Nitril-Handschuhe",
+                "Einweg-Handschuh",
+                "Einmalhandschuh",
+                "Einmalhanschuh",
+                "Nitrilhandschuh",
+                "Vinyl-Handschuh",
+                "Gummi-Einweghandschuh"
             ],
             "Bastelmaterial": [
                 "Bastelmaterial"
@@ -349,7 +355,7 @@
                 "Auftausalz",
                 "Auftausiedesalz",
                 "Streusalz",
-		"Eisfresser",
+                "Eisfresser",
                 "Schnee-EX"
             ],
             "Portogeb.": [
@@ -384,7 +390,8 @@
                 "Abfallsäcke",
                 "Müllsäcke",
                 "Hygienesäcke",
-                "Müllbeutel", "Müllb\\.",
+                "Müllbeutel",
+                "Müllb\\.",
                 "Longopac",
                 "Lpngopac",
                 "Hundekotbeutel"
@@ -517,11 +524,11 @@
                 "Flockungsmittel",
                 "Flockungsmitel",
                 "FlocStar",
-		"Hydroxidchlorid",
+                "Hydroxidchlorid",
                 "Polyaluminiumhydroxidchlorid",
                 "Poly-Aluminium",
-		"Aluminiumchlorid",
-		"Eisen-II-chlorid",
+                "Aluminiumchlorid",
+                "Eisen-II-chlorid",
                 "Eisen II Chlorid"
             ],
             "Abflussreiniger": [
@@ -859,12 +866,10 @@
             "Schotter": [
                 "Schotter"
             ],
-            "Schuhe": [
+            "Sicherheitsschuhe": [
                 "Stiefel",
                 "stiefel",
-                "Schuhe",
-                "SCHUHE",
-                "schuhe"
+                "(?<!hand)(?<!han)(?<!hnd)schuhe(?!inlage)"
             ],
             "Außenreiniger": [
                 "Außenreiniger"
@@ -992,9 +997,6 @@
             "Wasserwaagen": [
                 "Wasserwaage"
             ],
-            "Sicherheitsschuhe": [
-                "Sicherheitsschuhe"
-            ],
             "Schulunterrichtsgesetz": [
                 "Schulunterrichtsgesetz",
                 "Schulunterr.Gesetz"
@@ -1027,7 +1029,7 @@
                 "Gießkanne"
             ],
             "Reifen": [
-                "Reifen"
+                "(?<!st)(?<!erg)reifen"
             ],
             "Etiketten": [
                 "Etiketten",
@@ -1043,7 +1045,9 @@
                 "Arbeitshandschuhe",
                 "Arb.Handschuhe,",
                 "Arbeithndschuhe",
-                "Handschuhes"
+                "Handschuhes",
+                "(?<!einweg)(?<!einmal)handschuh",
+                "hndschuh"
             ],
             "USB-Sticks": [
                 "USB-Stick",

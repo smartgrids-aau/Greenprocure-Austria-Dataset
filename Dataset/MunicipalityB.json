@@ -28,7 +28,8 @@
         "Treibstoffe": [
             "Benzin und Diesel",
             "HeizOel",
-            "Pellets"
+            "Pellets",
+            "AdBlue"
         ],
         "Gebrauchsgüter": [
             "Wasserzähler",
@@ -117,7 +118,6 @@
             "Sicherheitsschuhe",
             "Schulunterrichtsgesetz",
             "Computermonitor",
-            "Falthandtücher",
             "Fahnen",
             "Fahrradständer",
             "Gießkanne",
@@ -154,7 +154,6 @@
             "Gewebeband",
             "Verbandsmaterial",
             "Reinigungsmittel",
-            "AdBlue",
             "Dübel",
             "Handwaschpaste",
             "Toner",
@@ -247,7 +246,8 @@
             "Frostschaden",
             "Frostschutzmittel",
             "Plastikfolien",
-            "Küvettentests"
+            "Küvettentests",
+            "Falthandtücher"
         ]
     },
     "replace": {
@@ -310,7 +310,7 @@
             ],
             "Geschenke": [
                 "Geschenk"
-             ],
+            ],
             "Geschirrspülmittel": [
                 "Spülmittel",
                 "Klarspüler",
@@ -319,7 +319,7 @@
                 "Glanztrockner",
                 "Clin Citrus"
             ],
-	    "Geschirrspüler": [
+            "Geschirrspüler": [
                 "Geschirrspüler"
             ],
             "Genol": [
@@ -330,7 +330,13 @@
             ],
             "Einweghandschuhe": [
                 "Einweghandschuhe",
-                "Nitril-Handschuhe"
+                "Nitril-Handschuhe",
+                "Einweg-Handschuh",
+                "Einmalhandschuh",
+                "Einmalhanschuh",
+                "Nitrilhandschuh",
+                "Vinyl-Handschuh",
+                "Gummi-Einweghandschuh"
             ],
             "Bastelmaterial": [
                 "Bastelmaterial"
@@ -343,11 +349,11 @@
                 "Bleich- u. Oxidationsmittel",
                 "Bleich- und Oxidationsmittel"
             ],
-          "Auftausalz": [
+            "Auftausalz": [
                 "Auftausalz",
                 "Auftausiedesalz",
                 "Streusalz",
-		"Eisfresser",
+                "Eisfresser",
                 "Schnee-EX"
             ],
             "Portogeb.": [
@@ -382,7 +388,8 @@
                 "Abfallsäcke",
                 "Müllsäcke",
                 "Hygienesäcke",
-                "Müllbeutel", "Müllb\\.",
+                "Müllbeutel",
+                "Müllb\\.",
                 "Longopac",
                 "Lpngopac",
                 "Hundekotbeutel"
@@ -511,15 +518,15 @@
             "Holzleim": [
                 "Holzleim"
             ],
-             "Flockungsmittel": [
+            "Flockungsmittel": [
                 "Flockungsmittel",
                 "Flockungsmitel",
                 "FlocStar",
-		"Hydroxidchlorid",
+                "Hydroxidchlorid",
                 "Polyaluminiumhydroxidchlorid",
                 "Poly-Aluminium",
-		"Aluminiumchlorid",
-		"Eisen-II-chlorid",
+                "Aluminiumchlorid",
+                "Eisen-II-chlorid",
                 "Eisen II Chlorid"
             ],
             "Abflussreiniger": [
@@ -857,9 +864,7 @@
             "Stiefel": [
                 "Stiefel",
                 "stiefel",
-                "Schuhe",
-                "SCHUHE",
-                "schuhe"
+                "(?<!hand)(?<!han)(?<!hnd)schuhe(?!inlage)"
             ],
             "Außenreiniger": [
                 "Außenreiniger"
@@ -1022,7 +1027,7 @@
                 "Gießkanne"
             ],
             "Reifen": [
-                "Reifen"
+                "(?<!st)(?<!erg)reifen"
             ],
             "Etiketten": [
                 "Etiketten",
@@ -1038,7 +1043,9 @@
                 "Arbeitshandschuhe",
                 "Arb.Handschuhe,",
                 "Arbeithndschuhe",
-                "Handschuhes"
+                "Handschuhes",
+                "(?<!einweg)(?<!einmal)handschuh",
+                "hndschuh"
             ],
             "USB-Sticks": [
                 "USB-Stick",
